@@ -1,0 +1,17 @@
+c
+
+	|not |i- |i+
+
+watch
+
+	Watch clang -g -fsanitize=address -fno-omit-frame-pointer 123.c
+	./a.out
+	rm a.out
+
+bootstrap
+
+	mv 123.c bar.c
+
+cc
+
+	(-Wall ) (-Wextra ) (-Wpedantic )
