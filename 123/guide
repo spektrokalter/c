@@ -8,7 +8,7 @@ watch
 	./a.out
 	rm a.out
 
-bootstrap
+init
 
 	mv 123.c bar.c
 
